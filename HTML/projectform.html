@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form register</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+
+      <div>
+        <label for="username">
+          First name:</label>
+        <input  name="name-lastName" id="username" type="text" placeholder="Name" required>
+
+        <label for="lastname">
+          Last name:</label>
+        <input  name="name-lastName" id="lastname" type="text" placeholder="Last Name" required>
+      </div>
+
+      <div class="">
+        <label for="male">
+          Male</label>
+        <input name="gender" id="male" type="radio" value="Male">
+
+        <label for="female">
+          Female</label>
+        <input name="gender" id="female" type="radio" value="Female">
+
+        <label for="other">
+          Other</label>
+        <input name="gender" id="other" type="radio" value="Other">
+
+      </div>
+
+    <div class="">
+      <label for="mail">
+        Email:</label>
+      <input id="mail" type="email" placeholder="example@hola.com" required>
+
+      <label for="contrasena">
+        Password:</label>
+      <input id="contrasena" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+    </div>
+    <div class="">
+      <label>Birthday:</label>
+      <select name="date-of-birth">
+        <option>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+      </select>
+
+      <select>
+        <option>Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+
+      <select>
+        <option>Year</option>
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+      </select>
+    </div>
+    <div class="">
+      <label for="terminos">
+        I agree to the terms and conditions</label>
+      <input id="terminos" type="checkbox" required>
+    </div>
+        <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
