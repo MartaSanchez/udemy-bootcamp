@@ -1,0 +1,16 @@
+html {
+  background-color: rgba(32, 32, 32, 0.2);
+}
+
+.box {
+  background-color: rgba(32, 32, 32, 0.3);
+  border: 2px solid rgba(32, 32, 32, 0.7);
+}
+
+h1 {
+  color: rgba(250, 0, 0, 0.6);
+  /*border-color: black;
+  border-width: 5px;
+  border-style: solid;*/
+  border: 2px solid black;
+}
