@@ -20,5 +20,11 @@ h1 {
 }
 
 #message {
-  color: white;
+  color: black;
+}
+
+#menu {
+  background-color: white;
+  height: 30px;
+  text-align: center;
 }
