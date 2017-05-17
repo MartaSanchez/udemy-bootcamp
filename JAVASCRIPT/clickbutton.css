@@ -1,0 +1,10 @@
+.button {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.bigbtn {
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+}
