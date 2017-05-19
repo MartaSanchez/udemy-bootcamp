@@ -26,11 +26,10 @@ easyButton.addEventListener("click", function(){
   hardButton.classList.remove("selected");
   colors = generateRandomColors(3);
   pickedColor = pickColor();
-  colorDisplay.textContent = pickedColor;
-  resetColors();
   for(var i = 0; i < squares.length; i++){
     if(colors[i]) {
       squares[i].style.background = colors[i];
+      colorDisplay.textContent = pickedColor;
     }
     else {
       squares[i].style.display = "none";
