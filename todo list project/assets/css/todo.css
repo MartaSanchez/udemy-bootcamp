@@ -1,0 +1,93 @@
+body {
+background: #649173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Indie Flower', cursive;
+}
+
+#div1 {
+  float: left;
+  background-color: #f7f7f7;
+  width: 350px;
+	margin-left: 25%;
+  margin-top: 150px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+#div2 {
+  float: right;
+  background-color: #f7f7f7;
+  width: 300px;
+  padding: 0;
+  margin-right: 25%;
+  margin-top: 150px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+h1 {
+  font-weight: normal;
+  padding: 10px 20px;
+  background-color: rgb(21, 174, 182);
+  margin: 0;
+  font-size: 20px;
+}
+
+.icono {
+  float: right;
+}
+
+.icono1 {
+  float: right;
+}
+
+input {
+  font-size: 18px;
+  width: 100%;
+  background: white;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: rgb(21, 174, 182);
+}
+
+input:focus {
+  border: 3px solid rgb(21, 174, 182);
+  outline: none;
+}
+
+li {
+  background: white;
+  height: 40px;
+  line-height: 40px;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+span {
+  background: red;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.3s linear;
+  opacity: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
